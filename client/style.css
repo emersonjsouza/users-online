@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+html,
+body {
+  font-family: "Source Sans Pro";
+  background-color: #DDD;
+}
+
+.login-container {
+  width: 70vw;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.05), 0px 4px 16px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  padding: 36px 50px;
+  background-color: #fff;
+  align-self: center;
+  min-height: 40vh;
+}
+
+.login-container .form-group {
+  display: grid;
+  grid-template-columns: 1fr 30%;
+  grid-gap: 20px;
+}
+
+
+.login-container .form-group input, .login-container .form-group button {
+  color: #3e3e3e;
+  background: transparent;
+  font-weight: 500;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid #dcdcdc;
+  position: relative;
+  padding: 13px 20px;
+  height: auto;
+  width: 100%;
+  font-size: 1rem;
+  line-height: 20px;
+  margin-top: 20px;
+}
+  
+.login-container .form-group button {
+  background-color: coral;
+  color: #FFF;
+}
+
+.users-container {
+  margin-top: 20px;
+}
+
+.users-container div {
+  display: flex;
+  align-items: center;
+  padding: 4px;
+}
+
+.users-container div span {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+  display: block;
+  background-color: darkgreen;
+}
